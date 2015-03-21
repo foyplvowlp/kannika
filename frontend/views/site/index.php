@@ -7,15 +7,12 @@ use yii\helpers\Html;
 $this->title = 'Kannika';
 ?>
 
-
-
 <?php
 $route1 = Yii::$app->urlManager->createUrl('test/test1');
 ?>
 <a href ="<?= $route1 ?>">ไปที่ Test1</a>
+
 <br>
-
-
 
 <?php
 $route2 = Yii::$app->urlManager->createUrl([
@@ -26,6 +23,7 @@ $route2 = Yii::$app->urlManager->createUrl([
 ?>
 <a href ="<?= $route2 ?>">ไปที่ Test2</a>
 <br>
+
 
 
 <?=

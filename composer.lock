@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9b5d99e53a34f21954d3bada81f261b0",
+    "hash": "0459708ba54a884ad2f4ec8c0784c69d",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -597,6 +597,50 @@
                 "mailer"
             ],
             "time": "2015-03-14 06:07:26"
+        },
+        {
+            "name": "vova07/yii2-start-themes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vova07/yii2-start-themes.git",
+                "reference": "d064e947f7c7311f4c9d2b44cb709ce5f292154f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vova07/yii2-start-themes/zipball/d064e947f7c7311f4c9d2b44cb709ce5f292154f",
+                "reference": "d064e947f7c7311f4c9d2b44cb709ce5f292154f",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "vova07\\themes\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "vova07\\themes\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Crudu Vasile",
+                    "email": "bazillio07@yandex.ru"
+                }
+            ],
+            "description": "The themes extension for Yii2-Start application.",
+            "keywords": [
+                "start",
+                "template",
+                "themes",
+                "yii 2",
+                "yii2",
+                "yii2-start"
+            ],
+            "time": "2015-03-01 13:43:45"
         },
         {
             "name": "yiisoft/yii2",
